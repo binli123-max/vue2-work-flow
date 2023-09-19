@@ -1,11 +1,17 @@
 {
-  "name": "vue-work-flow",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue2-work-flow",
+  "version": "0.0.1",
+  "private": false,
+  "description": "vue2-work-flow",
+  "main": "dist/vue2-work-flow.common.js",
+  "author": {
+    "name": "aslan"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",

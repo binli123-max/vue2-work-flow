@@ -1,0 +1,13 @@
+.*
+*.md
+*.yml
+build/
+node_modules/
+src/
+public/
+*.eslintignore
+*.prettierrc
+babel.config.js
+prettierrc.js
+vue.config.js
+README.md
