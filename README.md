@@ -1,24 +1,15 @@
-# vue-work-flow
+# vue2-work-flow
 
-## Project setup
+## 安装
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install vue2-work-flow --s
 ```
 
-### Compiles and minifies for production
+### 引入
 ```
-npm run build
-```
+import "@/assets/theme.less";
+import "@/assets/global.css";
+import "@/assets/iconfont/iconfont.css"
 
-### Lints and fixes files
+import vue2-work-flow from 'vue2-work-flow';
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

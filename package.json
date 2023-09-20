@@ -1,11 +1,16 @@
 {
   "name": "vue2-work-flow",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "private": false,
   "description": "vue2-work-flow",
-  "main": "dist/vue2-work-flow.common.js",
+  "main": "dist/vue2-work-flow.umd.min.js",
   "author": {
-    "name": "aslan"
+    "name": "aslan",
+    "github": "https://github.com/binli123-max/vue2-work-flow.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binli123-max/vue2-work-flow.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -15,7 +20,12 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "style-resources-loader": "^1.5.0",
     "vue": "^2.6.14",
+    "vuedraggable": "^2.24.3",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
